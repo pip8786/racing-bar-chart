@@ -1,24 +1,30 @@
-svg {
-  overflow: visible;
-  display: block;
-  /* background: #eee; */
-  width: 100%;
-  height: 200px;
+.chart {
+    overflow: visible;
+    display: block;
+    /* background: #eee; */
+    width: 100%;
+    max-width: 800px;
+    height: 600px;
 }
 
 #root {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: center;
-  height: 100vh;
-  padding: 0 50px 150px;
-  text-align: center;
-  box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 50px 150px;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 button {
-  width: 100px;
-  border: 1px solid black;
-  margin: 0 auto 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: #f7fafc;
+}
+
+.button-container {
+    display: flex;
 }
